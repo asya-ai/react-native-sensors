@@ -25,6 +25,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion safeExtGet('compileSdkVersion', 23)
+    namespace "com.sensors"
 
     defaultConfig {
         minSdkVersion 17
